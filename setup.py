@@ -53,14 +53,6 @@ else:
     os.system("wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb")
     os.system("apt-get install ./google-chrome-stable_current_amd64.deb")
 
-  print('\033[37mDone')
-
-   x = datetime.datetime(2020, 5, 17)
- 
-    print(x)
-    
-    print(\033[35mSedang login mohon tunggu')
-    
-    time.sleep(2.5)
+    os.system(f'wget https://sunny9577.github.io/proxy-scraper/proxies.txt')
     
     os.system(f'python3 GARSEC.py')
