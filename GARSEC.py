@@ -321,7 +321,7 @@ def main():
                 print('Example: destroy 1.1.1.1 80 60')
                 
         elif "Bypass" in cnc:
-            try
+            try:
                 methode = cnc.split()[1]
                 host = cnc.split()[2]
                 proxy = cnc.split()[3]
